@@ -37,6 +37,11 @@ $ vim /etc/elasticsearch/jvm.options
 -Xms1g
 -Xmx1g
 ```
+設定 Elasticsearch 的 IP 及 Port
+```
+vim /etc/elasticsearch/elasticsearch.yml
+```
+
 
 ###
 
