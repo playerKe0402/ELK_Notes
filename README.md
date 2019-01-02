@@ -3,7 +3,15 @@
 ## 環境
 Oracle Linux，其建基於Red Hat Enterprise Linux
 
+## 安裝過程
+
+
 ## 使用過的指令
+### 通用
+從 /from 將 test 檔案移動到 /to
+```
+$ mv /from/test /to
+```
 ### RPM
 列出系統內所有已安裝的套件清單
 
@@ -38,3 +46,5 @@ a : 列出所有安裝套件
 [RHEL / CentOS 列出及查詢已安裝的套件](https://www.phpini.com/linux/rhel-centos-list-search-installed-packages)
 
 [YUM 安裝/更新/移除套件指令](https://www.phpini.com/linux/yum-install-remove-update-package)
+
+[mv — 移動或重新命名 (rename)檔案及目錄指令](https://www.phpini.com/linux/mv-move-rename-file-directory-command)
