@@ -12,6 +12,10 @@ Oracle Linux，其建基於Red Hat Enterprise Linux
 ```
 $ mv /from/test /to
 ```
+解壓縮，例如解壓縮elasticsearch-6.1.3.tar.gz
+```
+$ tar -zxvf elasticsearch-6.1.3.tar.gz
+```
 ### RPM
 列出系統內所有已安裝的套件清單
 
