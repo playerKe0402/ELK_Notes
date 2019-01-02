@@ -68,9 +68,9 @@ $ systemctl disable firewalld
 $ firewall-cmd --add-port=9200/tcp --permanent
 $ firewall-cmd --reload
 ```
+### Logstash 安裝
+下載[Logstash](https://www.elastic.co/downloads/logstash)
 
-
-###
 
 ## 使用過的指令
 ### 通用
