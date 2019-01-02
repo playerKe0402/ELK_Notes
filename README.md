@@ -4,6 +4,7 @@
 Oracle Linux，其建基於Red Hat Enterprise Linux
 
 ## 使用過的指令
+### RPM
 列出系統內所有已安裝的套件清單
 
 q : query(詢問)
@@ -15,6 +16,15 @@ a : 列出所有安裝套件
 查詢某一個套件，搭配grep指令，例如想查詢包括 kibana 關鍵字的套件
 ```
  $ rpm -qa | grep kibana
+```
+### YUM
+列出系統內所有已安裝的套件清單
+```
+ $ yum list installed
+```
+查詢某一個套件，搭配grep指令，例如想查詢包括 kibana 關鍵字的套件
+```
+ $ yum list installed | grep kibana
 ```
 
 ## Reference
