@@ -47,9 +47,7 @@ a : 列出所有安裝套件
  $ yum remove kibana
 ```
 ## Reference
-[ELK搭建實時日誌分析平台之一ElasticSearch搭建](https://hk.saowen.com/a/310047ec82b00d33a6ac9fbfeff2f874f5e1b3eda13e513a07f5fa66bc0e8911)
-
-[ELK搭建實時日誌分析平臺之二Logstash和Kibana搭建](https://tw.saowen.com/a/bf8feb7ede9819fe59f24513081d192fc5bb7f0ab3e25776dc4fc303b5f06242)
+[ELK 教學 - 從無到有安裝 ELK (CentOS/Red Hat)](https://blog.johnwu.cc/article/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-centos-red-hat.html)
 
 [RHEL / CentOS 列出及查詢已安裝的套件](https://www.phpini.com/linux/rhel-centos-list-search-installed-packages)
 
