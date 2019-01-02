@@ -5,7 +5,22 @@ Oracle Linux，其建基於Red Hat Enterprise Linux
 
 ## 安裝過程
 ### Elasticsearch 安裝
-安裝JAVA([JRE](https://www.oracle.com/technetwork/java/javase/downloads/index.html))
+下載 JAVA([JRE](https://www.oracle.com/technetwork/java/javase/downloads/index.html))
+
+安裝 JRE
+```
+$ rpm -ivh jre-*.rpm
+```
+下載 [Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
+
+安裝 Elasticsearch
+```
+$ rpm -ivh elasticsearch-*.rpm
+```
+啟動 Elasticsearch
+```
+$ systemctl start elasticsearch
+```
 
 
 ## 使用過的指令
