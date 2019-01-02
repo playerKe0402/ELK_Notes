@@ -21,6 +21,11 @@ $ rpm -ivh elasticsearch-*.rpm
 ```
 $ systemctl start elasticsearch
 ```
+查看狀態
+```
+systemctl status elasticsearch
+$ curl "http://localhost:9200/_cat/nodes"
+```
 設定記憶體
 ```
 $ vim /etc/elasticsearch/jvm.options
@@ -39,7 +44,29 @@ $ vim /etc/elasticsearch/jvm.options
 ```
 設定 Elasticsearch 的 IP 及 Port
 ```
-vim /etc/elasticsearch/elasticsearch.yml
+$ vim /etc/elasticsearch/elasticsearch.yml
+```
+綁定所有 IP
+```
+network.host: 0.0.0.0
+```
+綁定 Port，預設 9200
+```
+http.port: 9200
+```
+重新啟動
+```
+$ systemctl start elasticsearch
+```
+防火牆完全關閉
+```
+$ systemctl stop firewalld
+$ systemctl disable firewalld
+```
+增加防火牆規則
+```
+$ firewall-cmd --add-port=9200/tcp --permanent
+$ firewall-cmd --reload
 ```
 
 
