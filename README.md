@@ -4,6 +4,8 @@
 Oracle Linux，其建基於Red Hat Enterprise Linux
 
 ## 安裝過程
+### Elasticsearch 安裝
+安裝JAVA([JRE](https://www.oracle.com/technetwork/java/javase/downloads/index.html))
 
 
 ## 使用過的指令
