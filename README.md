@@ -21,7 +21,24 @@ $ rpm -ivh elasticsearch-*.rpm
 ```
 $ systemctl start elasticsearch
 ```
+設定記憶體
+```
+$ vim /etc/elasticsearch/jvm.options
+```
 
+記憶體越大，查詢速度越快。使用記憶體有兩個限制 :
+
+- 最高只能設定為系統的 50%。例：系統 8GB，Elasticsearch 只能設定 4GB
+
+- 不能超過 32GB
+
+設定 Elasticsearch 記憶體使用上限(Xmx)及下限(Xms)
+```
+-Xms1g
+-Xmx1g
+```
+
+###
 
 ## 使用過的指令
 ### 通用
@@ -33,7 +50,7 @@ $ mv /from/test /to
 ```
 $ tar -zxvf elasticsearch-6.1.3.tar.gz
 ```
-將整個test 目錄刪除而不會先警告
+將整個 test 目錄刪除而不會先警告
 ```
 $ rm -rf test/
 ```
