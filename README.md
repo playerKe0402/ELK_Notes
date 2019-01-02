@@ -16,6 +16,10 @@ $ mv /from/test /to
 ```
 $ tar -zxvf elasticsearch-6.1.3.tar.gz
 ```
+將整個test 目錄刪除而不會先警告
+```
+$ rm -rf test/
+```
 ### RPM
 列出系統內所有已安裝的套件清單
 
@@ -54,3 +58,5 @@ a : 列出所有安裝套件
 [YUM 安裝/更新/移除套件指令](https://www.phpini.com/linux/yum-install-remove-update-package)
 
 [mv — 移動或重新命名 (rename)檔案及目錄指令](https://www.phpini.com/linux/mv-move-rename-file-directory-command)
+
+[rm – 刪除檔案及目錄指令](https://www.phpini.com/linux/rm-delete-files-directory-command)
